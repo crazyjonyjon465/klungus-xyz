@@ -3,23 +3,24 @@ body {
 }
 
 h1 {
-  color: #eb6544;
+  color: #black;
   margin-top: 60px;
   margin-left: 20px;
+  -webkit-text-stroke-width: 3px #f37c58;
 }
 
 h3 {
     color: white;
+    font-size: 47px;
     margin-left: 20px;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px #E21F03;
 }
 
 p {
   color: #white;
+  font-size: 20px;
   margin-left: 20px;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 3px #E21F03;
 }
 
 element {
