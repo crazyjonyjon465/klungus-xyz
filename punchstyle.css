@@ -3,22 +3,28 @@ body {
 }
 
 h1 {
-  color: #black;
+  color: #f37c58;
   margin-top: 60px;
   margin-left: 20px;
-  -webkit-text-stroke-width: 3px #f37c58;
+  font-size: 32px;
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: #f37c58;
 }
 
 h3 {
     color: #e21f03;
     margin-left: 20px;
+    font-size: 18.72px;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #e21403;
 }
 
 p {
   color: #e21313;
-  font-size: 20px;
   margin-left: 20px;
-  -webkit-text-stroke-width: 3px #E21F03;
+  font-size: 10px;
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: #e21403;
 }
 
 element {
