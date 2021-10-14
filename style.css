@@ -12,3 +12,8 @@ p {
   color: #f5e3da;
   margin-left: 20px;
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
