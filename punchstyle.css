@@ -7,24 +7,21 @@ h1 {
   margin-top: 60px;
   margin-left: 20px;
   font-size: 32px;
-  -webkit-text-stroke: 1px black;
-  -webkit-text-fill-color: #f37c58;
+  background-color: #FFFF00;
 }
 
 h3 {
-    color: #e21f03;
-    margin-left: 20px;
-    font-size: 18.72px;
-    -webkit-text-stroke: 1px black;
-    -webkit-text-fill-color: #e21403;
+  color: #e21f03;
+  margin-left: 20px;
+  font-size: 18.72px;
+  background-color: #FFFFFF;
 }
 
 p {
   color: #e21313;
   margin-left: 20px;
   font-size: 10px;
-  -webkit-text-stroke: 1px black;
-  -webkit-text-fill-color: #e21403;
+  background-color: #FFFFFF;
 }
 
 element {
