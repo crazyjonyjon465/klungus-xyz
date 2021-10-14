@@ -10,14 +10,12 @@ h1 {
 }
 
 h3 {
-    color: white;
-    font-size: 47px;
+    color: #e21f03;
     margin-left: 20px;
-    -webkit-text-stroke-width: 3px #E21F03;
 }
 
 p {
-  color: #white;
+  color: #e21313;
   font-size: 20px;
   margin-left: 20px;
   -webkit-text-stroke-width: 3px #E21F03;
