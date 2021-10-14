@@ -4,18 +4,22 @@ body {
 
 h1 {
   color: #eb6544;
-  margin-top: 20px;
+  margin-top: 60px;
   margin-left: 20px;
 }
 
 h3 {
-    color: #fcba03;
+    color: white;
     margin-left: 20px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 p {
-  color: #fcba03;
+  color: #white;
   margin-left: 20px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 element {
