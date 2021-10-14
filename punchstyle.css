@@ -25,3 +25,7 @@ element {
   max-width: 100vw;
   overflow-x: hidden;
 }
+
+marquee {
+  color: white;
+}
