@@ -1,0 +1,19 @@
+body {
+  background-image: url(spin.gif); background-repeat:repeat;
+  background-color: #00030d;
+}
+
+h1 {
+  color: #f37c58;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+h3 {
+    color: #f5e3da;
+    margin-left: 20px;
+}
+
+p {
+  color: #f5e3da;
+}
