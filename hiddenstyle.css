@@ -10,20 +10,15 @@ h1 {
 
 h3 {
     color: #f5e3da;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 p {
   color: #f5e3da;
+  margin-left: 40px;
 }
 
-li {
+ul {
   color: #f5e3da;
-}
-
-div {
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  margin-left: 40px;
 }
