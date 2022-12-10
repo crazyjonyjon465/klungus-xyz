@@ -1,5 +1,5 @@
 body {
-  background-color: #00030d;
+  background-color: #000000;
 }
 
 h1 {
@@ -24,4 +24,11 @@ p {
 element {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }

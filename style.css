@@ -1,5 +1,5 @@
 body {
-  background-color: #00030d
+  background-color: #000000
 }
 
 h1 {
@@ -24,4 +24,11 @@ element {
 
 marquee {
   color: #f5e3da;
+}
+
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
