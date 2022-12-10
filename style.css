@@ -1,5 +1,6 @@
 body {
   background-color: #000000
+  margin-left: 50px;
 }
 
 h1 {
@@ -25,4 +26,16 @@ element {
 
 marquee {
   color: #f5e3da;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #949494;
+}
+
+a:hover {
+  color: #c9c9c9;
 }

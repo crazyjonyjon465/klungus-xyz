@@ -1,27 +1,37 @@
 body {
   background-color: #000000;
+  margin-left: 50px;
 }
 
 h1 {
   color: #f37c58;
   margin-top: 60px;
-  margin-left: 40px;
   font-size: 40px;
 }
 
 h3 {
   color: #f37c58;
-  margin-left: 40px;
   font-size: 28px;
 }
 
 p {
   color: #ffe5e5;
-  margin-left: 40px;
   font-size: 18px;
 }
 
 element {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #949494;
+}
+
+a:hover {
+  color: #c9c9c9;
 }

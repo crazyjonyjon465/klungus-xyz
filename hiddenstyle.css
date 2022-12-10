@@ -1,5 +1,6 @@
 body {
   background-color: #000000;
+  margin-left: 50px;
 }
 
 h1 {
@@ -21,4 +22,16 @@ p {
 ul {
   color: #f5e3da;
   margin-left: 40px;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #949494;
+}
+
+a:hover {
+  color: #c9c9c9;
 }
