@@ -4,36 +4,36 @@ body {
 }
 
 h1 {
-  color: #00BD9D;
+  color: #DAEFB3;
   margin-top: 50px;
   margin-left: 20px;
 }
 
 h3 {
-    color: #00BD9D;
+    color: #DAEFB3;
     margin-left: 40px;
 }
 
 p {
-  color: #FF6978;
+  color: #292F36;
   margin-left: 40px;
 }
 
 ul {
-  color: #00BD9D;
+  color: #DAEFB3;
   margin-left: 40px;
 }
 
 a:link {
-  color: #FF6978;
+  color: #DAEFB3;
 }
 
 a:visited {
-  color: #E00016;
+  color: #DAEFB3;
 }
 
 a:hover {
-  color: #FF497A;
+  color: #BDE278;
 }
 
 header {
@@ -45,7 +45,7 @@ top: 5px;
 height: 30px;
 display: flex;
 align-items: center;
-box-shadow: 0 0 25px 0 #FF10F0;
+box-shadow: 0 6px 25px 0 #FF10F0;
 }
 
 header * {
