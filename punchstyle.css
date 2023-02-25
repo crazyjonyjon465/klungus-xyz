@@ -25,13 +25,13 @@ element {
 }
 
 a:link {
-  color: #FFFCF9;
-}
-
-a:visited {
   color: #FF6978;
 }
 
+a:visited {
+  color: #1F003D;
+}
+
 a:hover {
-  color: #B1EDE8;
+  color: #FF497A;
 }

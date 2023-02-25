@@ -4,13 +4,13 @@ body {
 }
 
 h1 {
-  color: #FFFCF9;
+  color: #00BD9D;
   margin-top: 20px;
   margin-left: 20px;
 }
 
 h3 {
-    color: #FFFCF9;
+    color: #00BD9D;
     margin-left: 40px;
 }
 
@@ -25,13 +25,13 @@ ul {
 }
 
 a:link {
-  color: #FFFCF9;
-}
-
-a:visited {
   color: #FF6978;
 }
 
+a:visited {
+  color: #1F003D;
+}
+
 a:hover {
-  color: #B1EDE8;
+  color: #FF497A;
 }

@@ -1,5 +1,5 @@
 body {
-  background-color: #340068;
+  background-color: #1F003D;
   margin-left: 50px;
 }
 
@@ -25,15 +25,15 @@ element {
 }
 
 a:link {
-  color: #FFFCF9;
-}
-
-a:visited {
   color: #FF6978;
 }
 
+a:visited {
+  color: #1F003D;
+}
+
 a:hover {
-  color: #B1EDE8;
+  color: #FF497A;
 }
 
 img {
