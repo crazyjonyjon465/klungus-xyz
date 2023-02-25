@@ -12,11 +12,15 @@
   --shadow-pink: box-shadow: 0 6px 25px 0 #FF10F0;
 }
 
+html {
+  font-family: baskerville, serif;
+}
+
 body {
-  background-image: linear-gradient(var(--bg-black), var(--bg-black)),
-  linear-gradient(var(--bg-pink), var(--bg-pink)),
-  linear-gradient(var(--bg-purple), var(--bg-purple)),
-  linear-gradient(var(--bg-blue), var(--bg-blue)),
+  background-image: linear-gradient(#000000, #000000),
+  linear-gradient(#280015, #280015),
+  linear-gradient(#1b031a, #1b031a),
+  linear-gradient(#000e29, #000e29),
   background-repeat: no-repeat;
   background-position: 0% 0%, 0% 33%, 0% 66%, 0% 99%;
   background-size: 100vw 33%;
@@ -25,28 +29,28 @@ body {
 }
 
 h1 {
-  color: var(--white);
+  color: #FFFCF9;
   margin-top: 50px;
   margin-left: 40px;
 }
 
 h3 {
-    color: var(--white);
+    color: #FFFCF9;
     margin-left: 40px;
     margin-top: 50px;
 }
 
 p {
-  color: var(--white);
+  color: #FFFCF9;
   margin-left: 40px;
 }
 
 pre {
-  background-image: linear-gradient(var(--light-red), var(--light-red), var(--neon-pink), var(--white), var(--fg-white), var(--white), var(--white) );
+  background-image: linear-gradient(#FF6978, #FF6978, #FF10F0, #FFFCF9, #FFFCF9, #FFFCF9, #FFFCF9);
   background-repeat: no-repeat;
   color: transparent;
   -webkit-background-clip: text;
-  text-shadow: 0 0 20px var(--neon-pink);
+  text-shadow: 0 0 20px #FF10F0;
   white-space: pre !important;
   text-align: left;
 }
@@ -57,11 +61,11 @@ element {
 }
 
 a:link {
-  color: var(--dark-red);
+  color: #E00016;
 }
 
 a:visited {
-  color: var(--dark-red);
+  color: #E00016;
 }
 
 a:hover {
@@ -72,17 +76,8 @@ img {
     margin-left: 40px;
 }
 
-marquee {
-  margin-top: 40px;
-  left: 25px;
-  right: 25px;
-  color: var(--dark-red);
-  background-color: var(--light-red);
-  box-shadow: 0 0 25px 0 #FF10F0;
-}
-
 header {
-background-color: var(--light-red);
+background-color: #FF6978;
 position: fixed;
 left: 25px;
 right: 25px;
@@ -90,7 +85,7 @@ top: 5px;
 height: 30px;
 display: flex;
 align-items: center;
-box-shadow: 0 6px 25px 0 var(--neon-pink);
+box-shadow: 0 6px 25px 0 #FF10F0;
 }
 
 header * {
@@ -103,4 +98,17 @@ margin: 20px;
 
 header li a {
 text-decoration: none;
+}
+
+#scroll-container {
+  border: 5px double #FF10F0;
+  overflow: hidden;
+  font-size: 200%;
+}
+
+#scroll-text {
+  text-align: right;
+  white-space: nowrap;
+  transform: translateX(-100%);
+  animation: 8s cubic-bezier(0.43, 1.03, 0.54, -0.12) infinite;
 }

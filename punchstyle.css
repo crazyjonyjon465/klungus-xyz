@@ -1,8 +1,8 @@
 body {
-  background-image: linear-gradient(var(--bg-black), var(--bg-black)),
-  linear-gradient(var(--bg-pink), var(--bg-pink)),
-  linear-gradient(var(--bg-purple), var(--bg-purple)),
-  linear-gradient(var(--bg-blue), var(--bg-blue)),
+  background-image: linear-gradient(#000000, #000000),
+  linear-gradient(#280015), var(#280015),
+  linear-gradient(#1b031a, #1b031a),
+  linear-gradient(#000e29, #000e29),
   background-repeat: no-repeat;
   background-position: 0% 0%, 0% 33%, 0% 66%, 0% 99%;
   background-size: 100vw 33%;
@@ -10,19 +10,24 @@ body {
   justify-content: center;
 }
 
+html {
+  font-family: baskerville, serif;
+}
+
 h1 {
-  color: var(--white);
+  color: #FFFCF9;
   margin-top: 50px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 h3 {
-    color: var(--white);
+    color: #FFFCF9;
     margin-left: 40px;
+    margin-top: 50px;
 }
 
 p {
-  color: var(--light-red);
+  color: #FFFCF9;
   margin-left: 40px;
 }
 
@@ -32,11 +37,11 @@ body ul {
 }
 
 a:link {
-  color: var(--dark-red);
+  color: #E00016;
 }
 
 a:visited {
-  color: var(--dark-red);
+  color: #E00016;
 }
 
 a:hover {
@@ -44,7 +49,7 @@ a:hover {
 }
 
 header {
-background-color: var(--light-red);
+background-color: #FF6978;
 position: fixed;
 left: 25px;
 right: 25px;
@@ -52,7 +57,7 @@ top: 5px;
 height: 30px;
 display: flex;
 align-items: center;
-box-shadow: var(--shadow-pink);
+box-shadow: 0 6px 25px 0 #FF10F0;
 }
 
 header * {
