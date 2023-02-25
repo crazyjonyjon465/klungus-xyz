@@ -42,15 +42,13 @@ p {
 }
 
 pre {
-  background-image: linear-gradient(var(--light-red), var(--light-red), var(--neon-pink), var(--neon-pink), var(--fg-white), var(--white), var(--white) );
-    background-repeat: no-repeat;
-    background-clip: text;
-    color: transparent;
-    -webkit-background-clip: text;
-    text-shadow: var(--shadow-pink);
-    white-space: pre !important;
-    line-break: none;
-    text-align: left;
+  background-image: linear-gradient(var(--light-red), var(--light-red), var(--neon-pink), var(--white), var(--fg-white), var(--white), var(--white) );
+  background-repeat: no-repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 0 0 20px var(--neon-pink);
+  white-space: pre !important;
+  text-align: left;
 }
 
 element {
