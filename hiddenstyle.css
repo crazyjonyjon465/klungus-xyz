@@ -19,21 +19,21 @@ p {
   margin-left: 40px;
 }
 
-ul {
+body ul {
   color: #DAEFB3;
   margin-left: 40px;
 }
 
 a:link {
-  color: #DAEFB3;
+  color: #E00016;
 }
 
 a:visited {
-  color: #DAEFB3;
+  color: #E00016;
 }
 
 a:hover {
-  color: #BDE278;
+  color: #FF497A;
 }
 
 header {
