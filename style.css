@@ -29,7 +29,7 @@ a:link {
 }
 
 a:visited {
-  color: #FF6978;
+  color: #E00016;
 }
 
 a:hover {
@@ -41,14 +41,16 @@ img {
 }
 
 marquee {
-  top: 30px;
+  margin-top: 40px;
+  color: #B1EDE8;
+  background-color: #FF10F0;
 }
 
 header {
 background-color: #FF6978;
 position: fixed;
-left: 5px;
-right: 5px;
+left: 25px;
+right: 25px;
 top: 5px;
 height: 30px;
 display: flex;
