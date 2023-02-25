@@ -29,7 +29,7 @@ a:link {
 }
 
 a:visited {
-  color: #1F003D;
+  color: #E00016;
 }
 
 a:hover {
@@ -38,4 +38,30 @@ a:hover {
 
 img {
     margin-left: 40px;
+}
+
+
+header {
+background-color: #FF6978;
+position: fixed;
+left: 0;
+right: 0;
+top: 5px;
+height: 30px;
+display: flex;
+align-items: center;
+box-shadow: 0 0 25px 0 #FF10F0;
+}
+
+header * {
+display: inline;
+}
+
+header li {
+margin: 20px;
+}
+
+header li a {
+color: #B1EDE8;
+text-decoration: none;
 }
