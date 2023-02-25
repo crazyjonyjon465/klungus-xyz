@@ -17,13 +17,10 @@ html {
 }
 
 body {
-  background-image: linear-gradient(#000000, #000000),
-  linear-gradient(#280015), var(#280015),
-  linear-gradient(#1b031a, #1b031a),
-  linear-gradient(#000e29, #000e29),
-  background-repeat: no-repeat;
-  background-position: 0% 0%, 0% 33%, 0% 66%, 0% 99%;
-  background-size: 100vw 33%;
+  background-color: #000000;
+  background-repeat: repeat-y;
+  background-position: 0% 20%, 0% 40%, 0% 60%, 0% 80%;
+  background-size: 100vw 20%;
   margin-left: 50px;
   justify-content: center;
 }
