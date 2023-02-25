@@ -14,6 +14,9 @@
 
 html {
   font-family: baskerville, serif;
+  background: #0000;
+  outline: 0;
+  overflow-x: hidden;
 }
 
 body {
@@ -21,9 +24,9 @@ body {
   linear-gradient(#280015, #280015),
   linear-gradient(#1b031a, #1b031a),
   linear-gradient(#000e29, #000e29),
-  background-repeat: no-repeat;
-  background-position: 0% 0%, 0% 33%, 0% 66%, 0% 99%;
-  background-size: 100vw 33%;
+  background-repeat: repeat-y;
+  background-position: 0% 20%, 0% 40%, 0% 60%, 0% 80%;
+  background-size: 100vw 20%;
   margin-left: 50px;
   justify-content: center;
 }
@@ -46,10 +49,7 @@ p {
 }
 
 pre {
-  background-image: linear-gradient(#FF6978, #FF6978, #FF10F0, #FFFCF9, #FFFCF9, #FFFCF9, #FFFCF9);
-  background-repeat: no-repeat;
-  color: transparent;
-  -webkit-background-clip: text;
+  color: #FF10F0;
   text-shadow: 0 0 20px #FF10F0;
   white-space: pre !important;
   text-align: left;
@@ -101,6 +101,7 @@ text-decoration: none;
 }
 
 #scroll-container {
+  margin-top: 50px;
   border: 5px double #FF10F0;
   overflow: hidden;
   font-size: 200%;
