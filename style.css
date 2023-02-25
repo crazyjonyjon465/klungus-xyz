@@ -1,23 +1,52 @@
+:root {
+  --neon-pink: #FF10F0;
+  --light-red: #FF6978;
+  --dark-red: #E00016;
+  --white: #FFFCF9;
+
+  --bg-black: #000000;
+  --bg-pink: #280015;
+  --bg-purple: #1b031a;
+  --bg-blue: #000e29;
+
+  --shadow-pink: 0 0 20px #FF10F0;
+}
+
 body {
-  background-color: #9B7EDE;
+  background-image: linear-gradient(var(--bg-black), var(--bg-black)), linear-gradient(var(--bg-pink), var(--bg-pink)), linear-gradient(var(--bg-purple), var(--bg-purple)), linear-gradient(var(--bg-blue), var(--bg-blue)), linear-gradient(var(--bg-black), var(--bg-black)), linear-gradient(var(--bg-pink), var(--bg-pink));
+  background-repeat: no-repeat;
+  background-position: 0% 0%, 0% 20%, 0% 40%, 0% 60%, 0% 80%, 0% 100%;
+  background-size: 100vw 20%;
   margin-left: 50px;
 }
 
 h1 {
-  color: #FFFCF9;
+  color: var(--white);
   margin-top: 50px;
   margin-left: 40px;
 }
 
 h3 {
-    color: #FFFCF9;
+    color: var(--white);
     margin-left: 40px;
     margin-top: 50px;
 }
 
 p {
-  color: #FFFCF9;
+  color: var(--white);
   margin-left: 40px;
+}
+
+pre {
+  background-image: linear-gradient(var(--light-red), var(--light-red), var(--neon-pink), var(--neon-pink), var(--fg-white), var(--white), var(--white) );
+    background-repeat: no-repeat;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: var(--shadow-pink);
+    white-space: pre !important;
+    line-break: none;
+    text-align: left;
 }
 
 element {
@@ -26,11 +55,11 @@ element {
 }
 
 a:link {
-  color: #E00016;
+  color: var(--dark-red);
 }
 
 a:visited {
-  color: #E00016;
+  color: var(--dark-red);
 }
 
 a:hover {
@@ -43,13 +72,15 @@ img {
 
 marquee {
   margin-top: 40px;
-  color: #E00016;
-  background-color: #FF6978;
+  left: 25px;
+  right: 25px;
+  color: var(--dark-red);
+  background-color: var(--light-red);
   box-shadow: 0 0 25px 0 #FF10F0;
 }
 
 header {
-background-color: #FF6978;
+background-color: var(--light-red);
 position: fixed;
 left: 25px;
 right: 25px;
@@ -57,7 +88,7 @@ top: 5px;
 height: 30px;
 display: flex;
 align-items: center;
-box-shadow: 0 6px 25px 0 #FF10F0;
+box-shadow: 0 6px 25px 0 var(--neon-pink);
 }
 
 header * {
