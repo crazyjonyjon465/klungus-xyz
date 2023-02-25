@@ -9,11 +9,11 @@
   --bg-purple: #1b031a;
   --bg-blue: #000e29;
 
-  --shadow-pink: 0 0 20px #FF10F0;
+  --shadow-pink: box-shadow: 0 6px 25px 0 #FF10F0;
 }
 
 body {
-  background-image: linear-gradient(var(--bg-black), var(--bg-black)), linear-gradient(var(--bg-pink), var(--bg-pink)), linear-gradient(var(--bg-purple), var(--bg-purple)), linear-gradient(var(--bg-blue), var(--bg-blue)));
+  background-image: linear-gradient(var(--bg-black), var(--bg-black)), linear-gradient(var(--bg-pink), var(--bg-pink)), linear-gradient(var(--bg-purple), var(--bg-purple)), linear-gradient(var(--bg-blue), var(--bg-blue)), linear-gradient(var(--bg-black), var(--bg-black)), linear-gradient(var(--bg-pink), var(--bg-pink));
   background-repeat: repeat-y;
   background-position: 0% 0%, 0% 20%, 0% 40%, 0% 60%, 0% 80%, 0% 100%;
   background-size: 100vw 20%;

@@ -7,18 +7,18 @@ body {
 }
 
 h1 {
-  color: #DAEFB3;
+  color: var(--white);
   margin-top: 50px;
   margin-left: 20px;
 }
 
 h3 {
-    color: #DAEFB3;
+    color: var(--white);
     margin-left: 40px;
 }
 
 p {
-  color: #292F36;
+  color: var(--light-red);
   margin-left: 40px;
 }
 
@@ -28,11 +28,11 @@ body ul {
 }
 
 a:link {
-  color: #E00016;
+  color: var(--dark-red);
 }
 
 a:visited {
-  color: #E00016;
+  color: var(--dark-red);
 }
 
 a:hover {
@@ -40,7 +40,7 @@ a:hover {
 }
 
 header {
-background-color: #FF6978;
+background-color: var(--light-red);
 position: fixed;
 left: 25px;
 right: 25px;
@@ -48,7 +48,7 @@ top: 5px;
 height: 30px;
 display: flex;
 align-items: center;
-box-shadow: 0 6px 25px 0 #FF10F0;
+box-shadow: var(--shadow-pink);
 }
 
 header * {
@@ -60,6 +60,5 @@ margin: 20px;
 }
 
 header li a {
-color: #B1EDE8;
 text-decoration: none;
 }
