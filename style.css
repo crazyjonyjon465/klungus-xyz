@@ -14,13 +14,12 @@
 
 html {
   font-family: baskerville, serif;
-  background: #000000;
+  background-color: #000000;
   outline: 0;
   overflow-x: hidden;
 }
 
 body {
-  background-color: #000000;
   margin-left: 50px;
   justify-content: center;
 }
