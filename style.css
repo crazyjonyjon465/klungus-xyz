@@ -96,13 +96,12 @@ text-decoration: none;
   border: 6px double #FF10F0;
   border-radius: 5px;
   overflow: hidden;
-  font-size: 200%
-  color: #F1F0F0;
 }
 
 #scroll-text {
   text-align:right;
-  color: #F1F0F0;
+  color: #A3009B;
+  font-size: 200%;
   /* animation properties */
   -moz-transform: translateX(-100%);
   -webkit-transform: translateX(-100%);
@@ -110,7 +109,7 @@ text-decoration: none;
 
   -moz-animation: my-animation 8s linear infinite;
   -webkit-animation: my-animation 8s linear infinite;
-  animation: my-animation 8s linear infinite;
+  animation: my-animation 8s cubic-bezier(0.27, 0.76, 0.63,-0.18) infinite;
 }
 
 /* for Chrome */
