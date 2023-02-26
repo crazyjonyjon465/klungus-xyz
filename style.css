@@ -139,33 +139,100 @@ pre {
 
 /* Content Box stuff goes here */
 
-.contentbox {
-  max-width: 1500px;
-  width: 1500px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  overflow-y: auto;
-  padding-bottom: 10pt;
-  margin: 20px;
-  background: black;
-  border: 1px #FF10F0 solid;
-  box-shadow: inset 0 0 12px #FF10F0;
-  overflow-x: hidden;
+.content, .foldercontent {
+  margin     : 20px;
+  background : #0008;
+  border     : 1px #FF10F0 solid;
+  box-shadow: 0 6px 25px 0 #FF10F0;
+  overflow-x : hidden;
 }
 
-.wintitle {
-  background: #FF10F0;
-  color: black;
-  margin: 0px;
-  padding-bottom: 2pt;
-  padding-left: 2pt;
-  display: block;
-  width: 100%;
-  overflow-y: hidden;
-  max-height: 10pt;
-  text-align: left;
-  font-size: 8pt;
-  font-weight: bold;
-  box-shadow: 0 0 12px #FF10F0;
+.content {
+  overflow-y      : auto;
+  padding-bottom  : 10pt;
+}
+
+@media only screen and (min-width: 1540px) {
+  .content {
+        max-width   : 1500px;
+        width       : 1500px;
+        margin-left : auto;
+        margin-right: auto;
+  }
+}
+
+.foldercontent {
+  margin : 0;
+}
+
+.content p {
+  margin-left   : 20pt;
+  margin-right  : 20pt;
+  margin-bottom : 0pt;
+}
+
+.wintitle, .foldertitle, .doctitle {
+    background     : #FF10F0;
+    color          : black;
+    margin         : 0px;
+    padding-bottom : 2pt;
+    padding-left   : 2pt;
+    display        : block;
+    width          : 100%;
+    overflow-y     : hidden;
+    max-height     : 10pt;
+    text-align     : left;
+    font-size      : 8pt;
+    font-weight    : bold;
+    box-shadow     : 0 0 12px #ff10f0;
+}
+
+.doctitle {
+  width : auto;
+}
+
+.foldertitle {
+  padding-bottom : 1pt;
+  width          : auto;
+  transition     : background .2s, color .2s;
+  box-shadow     : inset 0 0 12px #ff10f0;
+  border         : 1px #ff10f0 solid;
+}
+
+.foldertitle:hover {
+  background    : #00000000;
+  color         : #FFC2FB;
+}
+
+.folder {
+  box-shadow : none;
+  margin    : 20pt;
+}
+
+.folderarrow::after {
+  content : "+";
+}
+
+.folder[open=""] .foldertitle .folderarrow::after {
+  content : "-";
+}
+
+.folder[open=""] div {
+  animation : fadein .1s linear;
+}
+
+.folder div {
+  box-shadow : inset 0 0 12px #ff10f0;
+}
+
+.folderarrow {
+  float : right;
+  color : #16002b;
+  background : #00000000;
+  margin-right : 5pt;
+  font-size : 9pt;
+}
+
+.foldertitle:hover .folderarrow {
+  color : #f0f0f0;
 }
