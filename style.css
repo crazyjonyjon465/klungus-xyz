@@ -135,7 +135,7 @@ text-decoration: none;
 
 /* Content Box stuff goes here */
 
-#content {
+.content {
   max-width: 1500px;
   width: 1500px;
   margin-left: auto;
@@ -149,7 +149,7 @@ text-decoration: none;
   overflow-x: hidden;
 }
 
-#wintitle {
+.wintitle {
   background: #FF10F0;
   color: black;
   margin: 0px;

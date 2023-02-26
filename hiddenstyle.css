@@ -27,6 +27,7 @@ body ul {
   color: #FF10F0;
   text-shadow: 0 0 20px #FF10F0;
   margin-left: 40px;
+  list-style: none;
 }
 
 a:link {
