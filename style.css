@@ -1,15 +1,10 @@
 :root {
-  --neon-pink: #FF10F0;
-  --light-red: #FF6978;
-  --dark-red: #E00016;
-  --white: #FFFCF9;
+  --neon: #FF10F0;
+  --deep: #140013;
+  --white: #FFC2FB;
+  --light: #FF70F8;
 
-  --bg-black: #000000;
-  --bg-pink: #280015;
-  --bg-purple: #1b031a;
-  --bg-blue: #000e29;
-
-  --shadow-pink: box-shadow: 0 6px 25px 0 #FF10F0;
+  --shadow-pink: 0 6px 25px 0 #FF10F0;
 }
 
 html {
@@ -17,6 +12,7 @@ html {
   background-color: #140013;
   outline: 0;
   overflow-x: hidden;
+  padding: 0;
 }
 
 body {
