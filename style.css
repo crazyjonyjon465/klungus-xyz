@@ -26,7 +26,6 @@ h1 {
 
 h3 {
     color: #FFC2FB;
-
 }
 
 p {
@@ -36,6 +35,7 @@ p {
 body ul {
   color: #FF10F0;
   list-style: none;
+  text-align: center;
 }
 
 a:link {
