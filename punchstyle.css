@@ -2,6 +2,7 @@ body {
   background-color: #140013;
   margin-left: 50px;
   justify-content: center;
+  margin-top: 80px;
 }
 
 html {
@@ -10,14 +11,12 @@ html {
 
 h1 {
   color: #FFFCF9;
-  margin-top: 50px;
   margin-left: 40px;
 }
 
 h3 {
     color: #FFFCF9;
     margin-left: 40px;
-    margin-top: 50px;
 }
 
 p {
@@ -47,7 +46,7 @@ background-color: #FF70F8;
 position: fixed;
 left: 25px;
 right: 25px;
-top: 5px;
+top: 25px;
 height: 30px;
 display: flex;
 align-items: center;

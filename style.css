@@ -21,18 +21,17 @@ html {
 
 body {
   justify-content: center;
+  margin-top: 80px;
 }
 
 h1 {
   color: #FFFCF9;
-  margin-top: 50px;
   margin-left: 40px;
 }
 
 h3 {
     color: #FFFCF9;
-    margin-left: 40px;
-    margin-top: 50px;
+    margin-left: 80px;
 }
 
 p {
@@ -99,7 +98,6 @@ text-decoration: none;
   overflow: hidden;
   font-size: 200%
   color: #F1F0F0;
-  margin-top: 80px;
 }
 
 #scroll-text {
