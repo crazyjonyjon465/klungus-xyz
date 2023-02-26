@@ -39,18 +39,6 @@ p {
   margin-left: 60px;
 }
 
-pre {
-  color: #FF10F0;
-  text-shadow: 0 0 20px #FF10F0;
-  white-space: pre !important;
-  text-align: center;
-}
-
-element {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
 body ul {
   color: #FF10F0;
   margin-left: 40px;
@@ -91,6 +79,22 @@ margin: 20px;
 
 header li a {
 text-decoration: none;
+}
+
+pre {
+  color: #FF10F0;
+  text-shadow: 0 0 20px #FF10F0;
+  white-space: pre !important;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.container pre {
+  display: inline-block
+  text-align: left;
 }
 
 /* Scrolling text gobbeldeguk */
@@ -135,7 +139,7 @@ text-decoration: none;
 
 /* Content Box stuff goes here */
 
-.content {
+.contentbox {
   max-width: 1500px;
   width: 1500px;
   height: auto;
