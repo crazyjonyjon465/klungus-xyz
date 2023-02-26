@@ -80,20 +80,12 @@ pre {
   text-shadow: 0 0 20px #FF10F0;
   white-space: pre !important;
   text-align: center;
+  font-size: 0.8vw;
 }
 
 iframe {
   margin-left: auto;
   margin-right: auto;
-}
-
-#container {
-  text-align: center;
-}
-
-#container pre {
-  display: inline-block
-  text-align: left;
 }
 
 /* Scrolling text gobbeldeguk */
