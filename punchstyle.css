@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  background-color: #140013;
   margin-left: 50px;
   justify-content: center;
 }
@@ -26,24 +26,24 @@ p {
 }
 
 body ul {
-  color: #DAEFB3;
+  color: #FF10F0;
   margin-left: 40px;
 }
 
 a:link {
-  color: #E00016;
+  color: #B800AE;
 }
 
 a:visited {
-  color: #E00016;
+  color: #B800AE;
 }
 
 a:hover {
-  color: #FF497A;
+  color: #A3009B;
 }
 
 header {
-background-color: #FF6978;
+background-color: #FF70F8;
 position: fixed;
 left: 25px;
 right: 25px;

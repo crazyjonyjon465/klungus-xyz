@@ -14,7 +14,7 @@
 
 html {
   font-family: baskerville, serif;
-  background-color: #000000;
+  background-color: #140013;
   outline: 0;
   overflow-x: hidden;
 }
@@ -53,24 +53,25 @@ element {
   overflow-x: hidden;
 }
 
+body ul {
+  color: #FF10F0;
+  margin-left: 40px;
+}
+
 a:link {
-  color: #E00016;
+  color: #B800AE;
 }
 
 a:visited {
-  color: #E00016;
+  color: #B800AE;
 }
 
 a:hover {
-  color: #FF497A;
-}
-
-img {
-    margin-left: 40px;
+  color: #A3009B;
 }
 
 header {
-background-color: #FF6978;
+background-color: #FF70F8;
 position: fixed;
 left: 25px;
 right: 25px;
@@ -105,4 +106,5 @@ text-decoration: none;
   white-space: nowrap;
   transform: translateX(-100%);
   animation: 8s cubic-bezier(0.43, 1.03, 0.54, -0.12) infinite;
+  color: #FF10F0;
 }
