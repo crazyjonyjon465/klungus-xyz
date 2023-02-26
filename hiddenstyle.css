@@ -26,7 +26,6 @@ p {
 body ul {
   color: #FF10F0;
   margin-left: 40px;
-  border: 3px dashed #FF10F0;
   text-shadow: 0 0 20px #FF10F0;
 }
 
@@ -44,6 +43,7 @@ a:hover {
 
 header {
 background-color: #FF70F8;
+text-shadow: 0 0 20px #FF10F0;
 position: fixed;
 left: 25px;
 right: 25px;

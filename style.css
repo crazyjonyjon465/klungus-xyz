@@ -70,6 +70,7 @@ a:hover {
 
 header {
 background-color: #FF70F8;
+text-shadow: 0 0 20px #FF10F0;
 position: fixed;
 left: 25px;
 right: 25px;
