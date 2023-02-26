@@ -43,7 +43,7 @@ pre {
   color: #FF10F0;
   text-shadow: 0 0 20px #FF10F0;
   white-space: pre !important;
-  text-align: left;
+  text-align: center;
 }
 
 element {
@@ -138,6 +138,7 @@ text-decoration: none;
 .content {
   max-width: 1500px;
   width: 1500px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   overflow-y: auto;
