@@ -109,7 +109,7 @@ text-decoration: none;
 
   -moz-animation: my-animation 8s linear infinite;
   -webkit-animation: my-animation 8s linear infinite;
-  animation: my-animation 8s cubic-bezier(0.27, 0.76, 0.63,-0.18) infinite;
+  animation: my-animation 8s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
 }
 
 /* for Chrome */
