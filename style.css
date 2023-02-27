@@ -85,9 +85,10 @@ pre {
   margin-right: auto;
 }
 
-iframe {
-  margin-left: auto;
-  margin-right: auto;
+table {
+  color: #FF10F0;
+  border-spacing: 2px;
+  border: 0;
 }
 
 /* Scrolling text gobbeldeguk */
