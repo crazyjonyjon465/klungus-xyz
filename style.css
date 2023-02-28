@@ -8,7 +8,7 @@
 }
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   background-color: #140013;
   outline: 0;
   overflow-x: hidden;
@@ -85,6 +85,7 @@ pre {
   font-size: 0.4vw;
   margin-left: 40vw;
   margin-right: auto;
+  font-family: monospace;
 }
 
 table {
@@ -236,4 +237,4 @@ table {
 
 /* Font stuff */
 
-@import url(//fonts.googleapis.com/css?family=Poppins);
+@import url(//fonts.googleapis.com/css?family=Orbitron);
