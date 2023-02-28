@@ -69,11 +69,11 @@ display: inline;
 }
 
 header li {
-color: #140013;
 margin: 20px;
 }
 
 header li a {
+color: #140013;
 text-decoration: none;
 }
 
