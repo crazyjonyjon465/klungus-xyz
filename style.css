@@ -94,6 +94,11 @@ table {
   border: 0;
 }
 
+img {
+  height: 20vh;
+  align-items: center;
+}
+
 /* Scrolling text gobbeldeguk */
 
 #scroll-container {
