@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  text-align: center;
+  text-align: left;
   margin-top: 80px;
 }
 
@@ -111,7 +111,7 @@ summary {
 }
 
 #scroll-text {
-  text-align:right;
+  text-align:center;
   color: #FF70F8;
   font-size: 200%;
   /* animation properties */
