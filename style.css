@@ -52,29 +52,29 @@ a:hover {
 }
 
 header {
-background-color: #FF70F8;
-text-shadow: 0 0 20px #FF10F0;
-position: fixed;
-left: 25px;
-right: 25px;
-top: 25px;
-height: 30px;
-display: flex;
-align-items: center;
-box-shadow: 0 6px 25px 0 #FF10F0;
+  background-color: #FF70F8;
+  text-shadow: 0 0 20px #FF10F0;
+  position: fixed;
+  left: 25px;
+  right: 25px;
+  top: 25px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 6px 25px 0 #FF10F0;
 }
 
 header * {
-display: inline;
+  display: inline;
 }
 
 header li {
-margin: 20px;
+  margin: 20px;
 }
 
 header li a {
-color: #140013;
-text-decoration: none;
+  color: #140013;
+  text-decoration: none;
 }
 
 pre {
