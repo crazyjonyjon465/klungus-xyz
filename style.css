@@ -96,6 +96,7 @@ table {
 
 img {
   height: 20vh;
+  align-items: center;
 }
 
 summary {
@@ -212,7 +213,7 @@ summary {
 
 #folder {
   box-shadow : none;
-  margin    : 20pt;
+  margin    : 30pt;
 }
 
 #folderarrow::after {
@@ -233,14 +234,14 @@ summary {
 
 #folderarrow {
   float : right;
-  color : #FFC2FB;
+  color : #black;
   background : #00000000;
   margin-right : 5pt;
   font-size : 9pt;
 }
 
 #foldertitle:hover #folderarrow {
-  color : #f0f0f0;
+  color : #FFC2FB;
 }
 
 /* Font stuff */
