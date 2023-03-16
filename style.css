@@ -98,6 +98,10 @@ img {
   height: 20vh;
 }
 
+summary {
+  color: #FFC2FB;
+}
+
 /* Scrolling text gobbeldeguk */
 
 #scroll-container {
@@ -202,7 +206,7 @@ img {
 }
 
 #foldertitle:hover {
-  background    : #00000000;
+  background    : #140013;
   color         : #FFC2FB;
 }
 
@@ -229,7 +233,7 @@ img {
 
 #folderarrow {
   float : right;
-  color : #16002b;
+  color : #FFC2FB;
   background : #00000000;
   margin-right : 5pt;
   font-size : 9pt;
