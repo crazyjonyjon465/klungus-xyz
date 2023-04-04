@@ -5,3 +5,7 @@ html {
 body {
   align-content: center;
 }
+
+audio {
+  margin: auto;
+}
