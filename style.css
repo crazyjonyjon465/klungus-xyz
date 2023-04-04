@@ -180,6 +180,13 @@ summary {
   margin-bottom : 0pt;
 }
 
+#content table {
+  margin-left   : 20pt;
+  margin-right  : 20pt;
+  margin-top    : 20pt;
+  margin-bottom : 0pt;
+}
+
 #wintitle, #foldertitle, #doctitle {
     background     : #FF10F0;
     color          : black;
