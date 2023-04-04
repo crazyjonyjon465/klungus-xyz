@@ -157,7 +157,6 @@ summary {
 
 #content {
   overflow-y      : auto;
-  padding-bottom  : 10pt;
 }
 
 @media only screen and (min-width: 1540px) {
