@@ -104,6 +104,10 @@ summary {
   color: #FFC2FB;
 }
 
+hr {
+  color: #ff10f0;
+}
+
 /* Scrolling text gobbeldeguk */
 
 #scroll-container {
