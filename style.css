@@ -135,7 +135,7 @@ hr {
 
   -moz-animation: my-animation 8s linear infinite;
   -webkit-animation: my-animation 8s linear infinite;
-  animation: my-animation 15s cubic-bezier(0.4, 0, 1, 1) infinite;
+  animation: my-animation 15s cubic-bezier(0, 1, 1, 0) infinite;
 }
 
 /* for Chrome */
