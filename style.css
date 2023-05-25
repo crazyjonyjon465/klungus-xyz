@@ -7,8 +7,13 @@
   --shadow-pink: 0 6px 25px 0 #FF10F0;
 }
 
+/* Font stuff */
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
 html {
-  font-family: 'Share Tech Mono';
+  font-family: 'Share Tech Mono', monospace;
   background-color: #140013;
   outline: 0;
   overflow-x: hidden;
@@ -31,6 +36,7 @@ h3 {
 
 p {
   color: #FFC2FB;
+  font-size: 15pt;
 }
 
 body ul {
@@ -255,7 +261,3 @@ hr {
 #foldertitle:hover #folderarrow {
   color : #FFC2FB;
 }
-
-/* Font stuff */
-
-@import url(//fonts.googleapis.com/css?family=Share Tech Mono);
