@@ -48,6 +48,7 @@ body ul {
 
 a:link {
   color: #B800AE;
+  text-decoration: none;
 }
 
 a:visited {
@@ -79,18 +80,21 @@ header li {
   margin: 20px;
 }
 
-header li a {
+header a {
   color: #140013;
   text-decoration: none;
+  margin-left: 55px;
 }
 
 #title pre {
+  display: flex;
   color: #FF10F0;
   text-shadow: 0 0 20px #FF10F0;
   white-space: pre !important;
   text-align: left;
   font-size: 0.4vw;
   justify-content: center;
+  margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
   font-family: monospace;
