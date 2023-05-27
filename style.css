@@ -23,6 +23,17 @@ html {
 body {
   text-align: left;
   margin-top: 80px;
+  animation: fade-in 2s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    filter: blur(0.2px);
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 h1 {
@@ -48,7 +59,6 @@ body ul {
 
 a:link {
   color: #B800AE;
-  text-decoration: none;
 }
 
 a:visited {
@@ -70,6 +80,8 @@ header {
   display: flex;
   align-items: center;
   box-shadow: 0 6px 25px 0 #FF10F0;
+  animation: fade-in 5s;
+    animation-timing-function: cubic-bezier(1, 0, 1, 0);
 }
 
 header * {
@@ -82,8 +94,11 @@ header li {
 
 header a {
   color: #140013;
-  text-decoration: none;
   margin-left: 55px;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
 }
 
 #title pre {
@@ -98,6 +113,7 @@ header a {
   margin-left: 20px;
   margin-right: 20px;
   font-family: monospace;
+  animation: fade-in 5s;
 }
 
 table {
