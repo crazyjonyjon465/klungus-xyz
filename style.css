@@ -84,14 +84,15 @@ header li a {
   text-decoration: none;
 }
 
-pre {
+#title pre {
   color: #FF10F0;
   text-shadow: 0 0 20px #FF10F0;
   white-space: pre !important;
   text-align: left;
   font-size: 0.4vw;
-  margin-left: 40vw;
-  margin-right: auto;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
   font-family: monospace;
 }
 
