@@ -93,8 +93,12 @@ header li {
 }
 
 header a {
-  color: #140013;
+  color: #8F0088 !important;
   margin-left: 55px;
+}
+
+header a:hover {
+  color: #140013 !important;
 }
 
 a:-webkit-any-link {
@@ -141,11 +145,11 @@ hr {
   border: 6px double #FF10F0;
   border-radius: 5px;
   overflow: hidden;
+  background: #000008;
 }
 
 #scroll-text {
   white-space: nowrap;
-
   text-align:center;
   color: #FF70F8;
   font-size: 200%;
