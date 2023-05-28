@@ -59,7 +59,11 @@ body ul {
 
 /* links */
 
-a:link, a:visited {
+a:link {
+  color: #B800AE;
+}
+
+a:visited {
   color: #B800AE;
 }
 
@@ -143,8 +147,6 @@ header a:hover {
   font-size: 0.4vw;
   justify-content: center;
   margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
   font-family: monospace;
   animation: fade-in 2.5s;
     animation-timing-function: cubic-bezier(1, 0, 1, 1);
