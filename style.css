@@ -1,5 +1,6 @@
 :root {
   --neon: #FF10F0;
+  --black: #000008;
   --deep: #140013;
   --white: #FFC2FB;
   --light: #FF70F8;
@@ -136,7 +137,7 @@ summary {
 }
 
 hr {
-  color: #ff10f0;
+  border-color: #ff10f0;
 }
 
 /* Scrolling text gobbeldeguk */
