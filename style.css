@@ -59,7 +59,7 @@ body ul {
 
 /* links */
 
-a:link {
+a:link, a:visited {
   color: #B800AE;
 }
 
