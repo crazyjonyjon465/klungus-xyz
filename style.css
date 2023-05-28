@@ -8,7 +8,7 @@
   --shadow-pink: 0 6px 25px 0 #FF10F0;
 }
 
-/* Font stuff */
+/* Fonts go here */
 
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
@@ -18,12 +18,11 @@ html {
   background-color: #140013;
   outline: 0;
   overflow-x: hidden;
-  padding: 0;
+  padding: 10px;
 }
 
 body {
   text-align: left;
-  margin-top: 80px;
   animation: fade-in 2s;
 }
 
@@ -58,6 +57,8 @@ body ul {
   padding-inline-start: 0px;
 }
 
+/* links */
+
 a:link {
   color: #B800AE;
 }
@@ -70,6 +71,38 @@ a:hover {
   color: #8F0088;
 }
 
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+/* navigation bar */
+
+.navbar {
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: #FF70F8;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  float: left;
+  color: #8F0088;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #FFC2FB;
+}
+
+.navbar a.active {
+  background-color: #FFC2FB;
+}
+
+/* old header code
+
 header {
   background-color: #FF70F8;
   text-shadow: 0 0 20px #FF10F0;
@@ -81,7 +114,7 @@ header {
   display: flex;
   align-items: center;
   box-shadow: 0 6px 25px 0 #FF10F0;
-  animation: fade-in 5s;
+  animation: fade-in 2s;
     animation-timing-function: cubic-bezier(1, 0, 1, 0);
 }
 
@@ -102,9 +135,7 @@ header a:hover {
   color: #140013 !important;
 }
 
-a:-webkit-any-link {
-  text-decoration: none;
-}
+*/
 
 #title pre {
   display: flex;
@@ -118,18 +149,14 @@ a:-webkit-any-link {
   margin-left: 20px;
   margin-right: 20px;
   font-family: monospace;
-  animation: fade-in 5s;
+  animation: fade-in 2.5s;
+    animation-timing-function: cubic-bezier(1, 0, 1, 1);
 }
 
 table {
   color: #FF10F0;
   border-spacing: 2px;
   border: 0;
-}
-
-img {
-  height: 20vh;
-  align-items: center;
 }
 
 summary {
@@ -151,7 +178,7 @@ hr {
 
 #scroll-text {
   white-space: nowrap;
-  text-align:center;
+  text-align: center;
   color: #FF70F8;
   font-size: 200%;
   /* animation properties */
@@ -185,7 +212,7 @@ hr {
 
 /* Content Box stuff goes here */
 
-#content, #foldercontent {
+.content, .foldercontent {
   margin     : 20px;
   background : #0008;
   border     : 1px #FF10F0 solid;
@@ -193,12 +220,12 @@ hr {
   overflow-x : hidden;
 }
 
-#content {
+.content {
   overflow-y      : auto;
 }
 
 @media only screen and (min-width: 1540px) {
-  #content {
+  .content {
         max-width   : 1500px;
         width       : 1500px;
         margin-left : auto;
@@ -206,25 +233,25 @@ hr {
   }
 }
 
-#foldercontent {
+.foldercontent {
   margin : 0;
 }
 
-#content p {
+.content p {
   margin-left   : 20pt;
   margin-right  : 20pt;
   margin-top    : 20pt;
   margin-bottom : 20pt;
 }
 
-#content table {
+.content table {
   margin-left   : 20pt;
   margin-right  : 20pt;
   margin-top    : 20pt;
   margin-bottom : 20pt;
 }
 
-#wintitle, #foldertitle, #doctitle {
+.wintitle, .foldertitle, .doctitle {
     background     : #FF10F0;
     color          : black;
     margin         : 0px;
@@ -240,11 +267,11 @@ hr {
     box-shadow     : 0 0 12px #ff10f0;
 }
 
-#doctitle {
+.doctitle {
   width : auto;
 }
 
-#foldertitle {
+.foldertitle {
   padding-bottom : 1pt;
   width          : auto;
   transition     : background .2s, color .2s;
@@ -252,33 +279,33 @@ hr {
   border         : 1px #ff10f0 solid;
 }
 
-#foldertitle:hover {
+.foldertitle:hover {
   background    : #140013;
   color         : #FFC2FB;
 }
 
-#folder {
+.folder {
   box-shadow : none;
   margin    : 30pt;
 }
 
-#folderarrow::after {
+.folderarrow::after {
   content : "+";
 }
 
-#folder[open=""] #foldertitle #folderarrow::after {
+.folder[open=""] .foldertitle .folderarrow::after {
   content : "-";
 }
 
-#folder[open=""] div {
+.folder[open=""] div {
   animation : fadein .1s linear;
 }
 
-#folder div {
+.folder div {
   box-shadow : inset 0 0 12px #ff10f0;
 }
 
-#folderarrow {
+.folderarrow {
   float : right;
   color : #black;
   background : #00000000;
@@ -286,6 +313,6 @@ hr {
   font-size : 9pt;
 }
 
-#foldertitle:hover #folderarrow {
+.foldertitle:hover .folderarrow {
   color : #FFC2FB;
 }
