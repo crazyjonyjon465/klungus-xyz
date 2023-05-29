@@ -158,6 +158,10 @@ table {
   border: 0;
 }
 
+.song {
+  padding-left: 5px;
+}
+
 summary {
   color: #FFC2FB;
 }
@@ -234,6 +238,10 @@ hr {
 
 .foldercontent {
   margin : 0;
+}
+
+.foldercontent img {
+  height: 400px;
 }
 
 .content p {
