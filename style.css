@@ -12,6 +12,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
+/* boilerplate CSS, style stuff */
 
 html {
   font-family: 'Share Tech Mono', monospace;
@@ -55,6 +56,26 @@ body ul {
   list-style: none;
   text-align: center;
   padding-inline-start: 0px;
+}
+
+hr {
+  border-color: #ff10f0;
+}
+
+summary {
+  color: #FFC2FB;
+}
+
+/* music */
+
+table {
+  color: #FF10F0;
+  border-spacing: 2px;
+  border: 0;
+}
+
+.song {
+  padding-left: 5px;
 }
 
 /* links */
@@ -138,6 +159,8 @@ header a:hover {
 
 */
 
+/* ASCII art header */
+
 #title pre {
   display: flex;
   color: #FF10F0;
@@ -152,25 +175,7 @@ header a:hover {
     animation-timing-function: cubic-bezier(1, 0, 1, 1);
 }
 
-table {
-  color: #FF10F0;
-  border-spacing: 2px;
-  border: 0;
-}
-
-.song {
-  padding-left: 5px;
-}
-
-summary {
-  color: #FFC2FB;
-}
-
-hr {
-  border-color: #ff10f0;
-}
-
-/* Scrolling text gobbeldeguk */
+/* Scrolling text header */
 
 #scroll-container {
   border: 6px double #FF10F0;
@@ -213,7 +218,7 @@ hr {
   }
 }
 
-/* Content Box stuff goes here */
+/* Content Boxes from sigma-one sinewave */
 
 .content, .foldercontent {
   margin     : 20px;
