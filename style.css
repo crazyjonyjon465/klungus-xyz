@@ -164,16 +164,21 @@ header a:hover {
 #title pre {
   display: flex;
   color: #FF10F0;
-  text-shadow: 0 0 20px #FF10F0;
+  text-shadow: 1px 0 10px #FF10F0;
   white-space: pre !important;
   text-align: left;
-  font-size: 0.4vw;
+  font-size: 0.8vw;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   font-family: monospace;
-  animation: fade-in 2.5s;
-    animation-timing-function: cubic-bezier(1, 0, 1, 1);
+  animation: fade-in 4s;
+    animation-timing-function: cubic-bezier(1, 0, 1, 0);
 }
+
+/* ASCII art CRT effect */
+
+
 
 /* Scrolling text header */
 
