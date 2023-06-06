@@ -103,8 +103,10 @@ a:-webkit-any-link {
   overflow: hidden;
   background-color: #FF70F8;
   white-space: nowrap;
+  margin-left: 200px;
+  margin-right: 200px;
   margin-bottom: 20px;
-  box-shadow: 0 5px 15px 0 #FF10F0;
+  box-shadow : 0 1px 6px 0 #FF10F0;
 }
 
 .navbar a {
@@ -113,6 +115,7 @@ a:-webkit-any-link {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .navbar a:hover {
@@ -121,6 +124,15 @@ a:-webkit-any-link {
 
 .navbar a.active {
   background-color: #FFC2FB;
+}
+
+@media only screen and (min-width: 1040px) {
+  .navbar {
+        max-width   : 1000px;
+        width       : 1000px;
+        margin-left : auto;
+        margin-right: auto;
+  }
 }
 
 /* old header code
@@ -167,12 +179,12 @@ header a:hover {
   text-shadow: 1px 0 10px #FF10F0;
   white-space: pre !important;
   text-align: left;
-  font-size: 0.8vw;
+  font-size: 0.6vw;
   justify-content: center;
   margin-top: 25px;
   margin-bottom: 25px;
   font-family: monospace;
-  animation: fade-in 4s;
+  animation: fade-in 2s;
     animation-timing-function: cubic-bezier(1, 0, 1, 0);
 }
 
@@ -187,6 +199,16 @@ header a:hover {
   border-radius: 5px;
   overflow: hidden;
   background: #000008;
+  box-shadow : 0 1px 6px 0 #FF10F0;
+}
+
+@media only screen and (min-width: 1540px) {
+  #scroll-container {
+        max-width   : 1500px;
+        width       : 1500px;
+        margin-left : auto;
+        margin-right: auto;
+  }
 }
 
 #scroll-text {
