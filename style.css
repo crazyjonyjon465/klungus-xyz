@@ -52,9 +52,9 @@ p {
 }
 
 body ul {
-  color: #FF10F0;
+  color: #FFC2FB;
   list-style: none;
-  text-align: center;
+  text-align: left;
   padding-inline-start: 0px;
 }
 
@@ -281,6 +281,17 @@ header a:hover {
   margin-right  : 20pt;
   margin-top    : 20pt;
   margin-bottom : 20pt;
+}
+
+.content ul {
+  margin-left   : 20pt;
+  margin-right  : 20pt;
+  margin-top    : 20pt;
+  margin-bottom : 20pt;
+}
+
+.content li {
+  margin-bottom : 10px;
 }
 
 .content table {
