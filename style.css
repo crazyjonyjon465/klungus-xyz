@@ -66,6 +66,19 @@ summary {
   color: #FFC2FB;
 }
 
+/* footer */
+
+.footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+
+.footer p {
+  text-align: center;
+}
+
 /* music */
 
 table {
