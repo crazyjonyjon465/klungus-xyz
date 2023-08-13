@@ -66,6 +66,17 @@ summary {
   color: #FFC2FB;
 }
 
+/* social bar */
+
+#social {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#social a {
+  margin: 20px;
+}
+
 /* footer */
 
 .footer {
@@ -219,10 +230,6 @@ header a:hover {
   animation: fade-in 2s;
     animation-timing-function: cubic-bezier(1, 0, 1, 0);
 }
-
-/* ASCII art CRT effect */
-
-
 
 /* Scrolling text header */
 
