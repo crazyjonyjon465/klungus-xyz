@@ -4,6 +4,7 @@
   --deep: #140013;
   --white: #FFC2FB;
   --light: #FF70F8;
+  --fadedpink: #C14F9E;
 
   --shadow-pink: 0 6px 25px 0 #FF10F0;
 }
@@ -115,6 +116,7 @@ table {
 
 .time {
   padding-right: 5px;
+  padding-left: 5px;
 }
 
 .code {
