@@ -216,6 +216,10 @@ header a:hover {
 
 */
 
+#home img {
+  position: absolute;
+}
+
 /* ASCII art header */
 
 #title pre {
