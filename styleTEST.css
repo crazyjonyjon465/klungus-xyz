@@ -148,11 +148,12 @@ a:-webkit-any-link {
   overflow: hidden;
   background-color: #FF70F8;
   white-space: nowrap;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
   box-shadow : 0 1px 6px 0 #FF10F0;
   max-width: 544px;
+  position : relative;
 }
 
 .navbar a {
@@ -172,14 +173,18 @@ a:-webkit-any-link {
   background-color: #FFC2FB;
 }
 
+/* disabling media code
+
 @media only screen and (min-width: 1040px) {
   .navbar {
         max-width   : 544px;
-        width       : 1000px;
+        width       : 544px;
         margin-left : auto;
         margin-right: auto;
   }
 }
+
+*/
 
 /* old header code
 
