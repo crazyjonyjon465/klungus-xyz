@@ -17,7 +17,11 @@
 
 html {
   font-family: 'Share Tech Mono', monospace;
-  background-color: #140013;
+  background-color: #140013
+  background: rgb(41,0,39);
+  background: radial-gradient(circle, rgba(41,0,39,1) 0%, rgba(38,0,35,1) 23%, rgba(32,0,30,1) 33%, rgba(20,0,19,1) 67%);
+  background-position-y: 900px;
+  background-attachment: fixed;
   outline: 0;
   overflow-x: hidden;
   padding: 10px;
@@ -146,8 +150,6 @@ a:-webkit-any-link {
 .navbar {
   border-radius: 10px;
   overflow: hidden;
-  background: rgb(255,112,248);
-  background: linear-gradient(0deg, rgba(255,112,248,1) 0%, rgba(255,133,249,1) 49%, rgba(254,154,247,1) 51%, rgba(255,194,251,1) 100%);
   white-space: nowrap;
   margin-left: auto;
   margin-right: auto;
@@ -155,6 +157,7 @@ a:-webkit-any-link {
   box-shadow : 0 1px 6px 0 #FF10F0;
   max-width: 492px;
   position : relative;
+  background: rgb(255,112,248);
 }
 
 .navbar a {
@@ -164,6 +167,8 @@ a:-webkit-any-link {
   padding: 14px 16px;
   text-decoration: none;
   display: inline-block;
+  background: rgb(255,112,248);
+  background: linear-gradient(0deg, rgba(255,112,248,1) 0%, rgba(255,133,249,1) 49%, rgba(254,154,247,1) 51%, rgba(255,194,251,1) 100%);
 }
 
 .navbar a:hover {
@@ -237,6 +242,7 @@ header a:hover {
 
 #home img {
   position: absolute;
+  height: 50px;
 }
 
 /* ASCII art header */
