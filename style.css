@@ -71,6 +71,11 @@ summary {
   color: #FFC2FB;
 }
 
+#center-image {
+  display: block;
+  text-align: center;
+}
+
 /* social bar */
 
 #social {
