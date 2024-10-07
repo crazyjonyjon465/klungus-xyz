@@ -7,7 +7,10 @@ body {
 }
 
 audio {
-  margin: auto;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
 }
 
 #center-screen {
